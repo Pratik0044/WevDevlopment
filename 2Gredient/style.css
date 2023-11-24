@@ -1,0 +1,31 @@
+.lineargradient{
+    border: 1px solid black;
+    width: 180px;
+    height: 220px;
+    background-image: linear-gradient(orange ,white ,green );
+    /* background-image: linear-gradient(to left,rgb(184, 250, 184),aqua);
+    background-image: linear-gradient(to right,rgb(184, 250, 184),aqua); 
+    background-image: linear-gradient(to top,rgb(184, 250, 184),aqua);
+    background-image: linear-gradient(to top left,rgb(184, 250, 184),aqua);
+    background-image: linear-gradient(to top right ,rgb(14, 233, 14),aqua);
+    background-image: linear-gradient(45deg,red,rgb(0, 242, 255),green); */
+}
+.redialgradient{
+    margin-top: 2px;
+    border: 1px solid black;
+    width: 180px;
+    height: 220px;
+
+    background-image: radial-gradient(circle,white,red,yellow);
+    background-image: radial-gradient(circle,white 10%,red 25%,yellow 65%);
+    
+}
+.conicgradient{
+    margin-top: 2px;
+    border: 1px solid black;
+    width: 180px;
+    height: 220px;
+
+    background-image: conic-gradient(red,blue,yellow);
+}
+

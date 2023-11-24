@@ -1,0 +1,18 @@
+div{
+    border: 2px solid black;
+    max-height: 100px;
+    padding: 10px;
+    overflow: auto;
+} 
+#div2{
+    border: 2px solid black;
+    margin-top: 2px;
+    min-height: 100px;
+    padding: 10px;
+}
+/* there are 4 types of overflow handler:
+    1. overflow: visible-isme sb dikhega bhale hi kyo n box se bahar aa jaye;
+    2. overflow: hidden- isme jo dikh skata hai wo hi dikhega baki sara kat jata hia;
+    3. overflow: scroll- isme jo dikh skata hai wo dikhega baki scroll ke bad dikhega;
+    4. overflow: auto  - isme agar fit ho skta hai to ho jayega nhi to baki sara scroll me aa jayega
+    */

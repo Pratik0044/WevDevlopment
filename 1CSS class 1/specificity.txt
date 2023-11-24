@@ -1,0 +1,7 @@
+Specificity: 
+            Because element can have multiple css sectors. there is a hierarchy for the weight given to each type of selector.
+            Here is the logical order of selectors from least to most weight assigned:
+
+            1.type selector and pseudo elements
+            2.Class selectors, attribute selectors and pseudo Classes;
+            3.ID selectors

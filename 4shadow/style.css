@@ -1,0 +1,17 @@
+h1{
+    text-shadow: 1px 1px 1px yellowgreen;
+    /* text-shadow: 2px 5px 2px red, 5px 5px 5px green; */
+
+}
+
+#box{
+    border: 2px solid black;
+    height: 70px;
+    padding: 5px;
+    width: 300px;
+    background-color: aliceblue;
+    font-size: larger;
+    
+    box-shadow: -5px -5px 5px yellowgreen, 5px 5px 5px red;
+    color: red;
+}
