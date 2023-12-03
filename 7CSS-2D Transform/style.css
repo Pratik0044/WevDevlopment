@@ -1,0 +1,18 @@
+.Box{
+    background-image: linear-gradient(aqua,yellowgreen);
+    font-size: larger;
+    transform: translate(50px,250px);
+    transform: translateX(50px);
+    transform: translateY(50px);
+
+    transform: rotate(45deg);
+    transform: rotate(-45deg);
+
+    transform: scale(1,1.9);
+    transform: scaleX(1);
+    transform: scaleY(2);
+
+    transform: skew(-30deg);
+    transform: skew(30deg);
+    
+}

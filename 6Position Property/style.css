@@ -1,0 +1,36 @@
+
+/* p{
+    position: static;
+} */
+div{
+    display: inline-block;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    
+    border: 1px solid black;
+}
+#wrapper{
+    background-color: yellow;
+    width: 500px;
+    height: 1000vw;
+}
+.Box1{
+    position: fixed;
+    left: 10px;
+}
+.Box2{
+    position: relative ;
+    left: 210px;
+}
+.Box3{
+    position: absolute;
+    left: 114px;
+    top: 112px;
+
+}
+.Box4{
+    position: sticky;
+    top: 0px;
+    
+}
